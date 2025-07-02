@@ -1,0 +1,80 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 0;
+}
+
+.player{
+   position: relative;
+  width: 350px;
+  height: 450px;
+  background: #000;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.bg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.song-title {
+  position: absolute;
+  bottom: 115px; /* lift it up a bit */
+  left: 10px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', monospace; /* pixel font */
+  font-weight: lighter;
+  color: white;
+  /* punchy */
+  z-index: 2;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  height: 90px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 8px 0;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* .song-title {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 15px;
+} */
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.control-btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
