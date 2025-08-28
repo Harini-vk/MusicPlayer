@@ -9,3 +9,6 @@ Starts playback immediately upon launch.
 Built with: 
 Electron.Js((JavaScript + Node.js) - for cross desktop platform support 
 Javascript, HTML, Css - for UI and Logic
+
+Output Screenshot
+<img width="546" height="700" alt="image" src="https://github.com/user-attachments/assets/256665c6-1c6d-4acc-bf75-180f464a7b8d" />
